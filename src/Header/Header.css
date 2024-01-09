@@ -1,0 +1,142 @@
+.dashboard-header {
+  display: flex;
+  width: 1216px;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 32px;
+  position: relative;
+  background-color: #ffffff;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #d9d9d9;
+}
+
+.dashboard-header .frame {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.dashboard-header .dashboard-wrapper {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.dashboard-header .dashboard {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--body-1-regular-font-family);
+  font-weight: var(--body-1-regular-font-weight);
+  color: #1a181e;
+  font-size: var(--body-1-regular-font-size);
+  letter-spacing: var(--body-1-regular-letter-spacing);
+  line-height: var(--body-1-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--body-1-regular-font-style);
+}
+
+.dashboard-header .how-to-use {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.dashboard-header .outlined-help {
+  position: relative;
+  width: 14px;
+  height: 14px;
+}
+
+.dashboard-header .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #4c4c4c;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.dashboard-header .div {
+  display: flex;
+  width: 400px;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 16px;
+  position: relative;
+  align-self: stretch;
+  background-color: #f2f2f2;
+  border-radius: 6px;
+}
+
+.dashboard-header .icons-search {
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+
+.dashboard-header .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -0.5px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #7f7f7f;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.dashboard-header .component-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: 8px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.dashboard-header .component {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 12px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.dashboard-header .icons-menu {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+
+.dashboard-header .polygon-wrapper {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-color: #e6e6e6;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.dashboard-header .polygon {
+  position: absolute;
+  width: 14px;
+  height: 9px;
+  top: 17px;
+  left: 13px;
+}

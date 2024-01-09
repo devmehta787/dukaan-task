@@ -16,80 +16,80 @@ import plugins from '../img/plugin.svg'
 
 function Navbar() {
     return (
-        <div class="navbar">
-            <div class="navbar-payments">
-                <div class="nav-top">
-                    <div class="company-icon-image">
-                        <div class="rectangle"></div>
-                        <div class="frame">
-                            <div class="text-wrapper">Nishyan</div>
-                            <div class="div">Visit store</div>
+        <div className="navbar">
+            <div className="navbar-payments">
+                <div className="nav-top">
+                    <div className="company-icon-image">
+                        <div className="rectangle"></div>
+                        <div className="frame">
+                            <div className="text-wrapper-2">Nishyan</div>
+                            <div className="text-wrapper-2">Visit store</div>
                         </div>
-                        <img class="image" src={user} alt='user' />
-                        <img class="img" src={chevron_down} alt='down'/>
+                        <img className="image" src={user} alt='user' />
+                        <img className="img" src={chevron_down} alt='down'/>
                     </div>
                     
-                    <div class="pages">
-                        <div class="basenav-button-2">
-                            <img class="img" src={home} alt='home' />
-                            <div class="text-wrapper-2">Home</div>
+                    <div className="pages">
+                        <div className="basenav-button-2">
+                            <img className="img" src={home} alt='home' />
+                            <div className="text-wrapper-2">Home</div>
                         </div>
-                        <div class="basenav-button-2">
-                            <img class="img" src={order} alt='order' />
-                            <div class="text-wrapper-2">Orders</div>
+                        <div className="basenav-button-2">
+                            <img className="img" src={order} alt='order' />
+                            <div className="text-wrapper-2">Orders</div>
                         </div>
-                        <div class="basenav-button-2">
-                            <img class="img" src={product} alt='product' />
-                            <div class="text-wrapper-2">Products</div>
+                        <div className="basenav-button-2">
+                            <img className="img" src={product} alt='product' />
+                            <div className="text-wrapper-2">Products</div>
                         </div>
-                            <div class="basenav-button-2">
-                            <img class="img" src={delivery} alt='delivery' />
-                        <div class="text-wrapper-2">Delivery</div>
+                            <div className="basenav-button-2">
+                            <img className="img" src={delivery} alt='delivery' />
+                        <div className="text-wrapper-2">Delivery</div>
                         </div>
-                        <div class="basenav-button-2">
-                            <img class="img" src={marketing} alt='marketing' />
-                            <div class="text-wrapper-2">Marketing</div>
+                        <div className="basenav-button-2">
+                            <img className="img" src={marketing} alt='marketing' />
+                            <div className="text-wrapper-2">Marketing</div>
                         </div>
-                        <div class="basenav-button-2">
-                            <img class="img" src={analytics} alt='analytics' />
-                            <div class="text-wrapper-2">Analytics</div>
+                        <div className="basenav-button-2">
+                            <img className="img" src={analytics} alt='analytics' />
+                            <div className="text-wrapper-2">Analytics</div>
                         </div>
-                        <div class="basenav-button-2">
-                            <img class="img" src={payments} alt='payments' />
-                            <div class="text-wrapper-2">Payments</div>
+                        <div className="basenav-button-2">
+                            <img className="img" src={payments} alt='payments' />
+                            <div className="text-wrapper-2">Payments</div>
                         </div>
-                        <div class="basenav-button-2">
-                            <img class="img" src={tools} alt='tools' />
-                            <div class="text-wrapper-2">Tools</div>
+                        <div className="basenav-button-2">
+                            <img className="img" src={tools} alt='tools' />
+                            <div className="text-wrapper-2">Tools</div>
                         </div>
-                        <div class="basenav-button-2">
-                            <img class="img" src={discounts} alt='discounts' />
-                            <div class="text-wrapper-2">Discounts</div>
+                        <div className="basenav-button-2">
+                            <img className="img" src={discounts} alt='discounts' />
+                            <div className="text-wrapper-2">Discounts</div>
                         </div>
-                        <div class="basenav-button-2">
-                            <img class="img" src={audience} alt='audience' />
-                            <div class="text-wrapper-2">Audience</div>
+                        <div className="basenav-button-2">
+                            <img className="img" src={audience} alt='audience' />
+                            <div className="text-wrapper-2">Audience</div>
                         </div>
-                        <div class="basenav-button-2">
-                            <img class="img" src={appearance} alt='appearance' />
-                            <div class="text-wrapper-2">Appearance</div>
+                        <div className="basenav-button-2">
+                            <img className="img" src={appearance} alt='appearance' />
+                            <div className="text-wrapper-2">Appearance</div>
                         </div>
-                        <div class="basenav-button-2">
-                            <img class="img" src={plugins} alt='plugins' />
-                            <div class="text-wrapper-2">Plugins</div>
+                        <div className="basenav-button-2">
+                            <img className="img" src={plugins} alt='plugins' />
+                            <div className="text-wrapper-2">Plugins</div>
                         </div>
                     </div>
                 </div>
-                <div class="basenav-bottom">
-                    <div class="frame-2">
-                        <div class="outline-wallet-wrapper">
-                            <div class="outline-wallet">
-                                {/* <img class="wallet" src="img/wallet.svg" /> */}
+                <div className="basenav-bottom">
+                    <div className="frame-2">
+                        <div className="outline-wallet-wrapper">
+                            <div className="outline-wallet">
+                                {/* <img className="wallet" src="img/wallet.svg" /> */}
                             </div>
                         </div>
-                        <div class="frame-3">
-                            <div class="text-wrapper-3">Available credits</div>
-                            <div class="text-wrapper-4">222.10</div>
+                        <div className="frame-3">
+                            <div className="text-wrapper-3">Available credits</div>
+                            <div className="text-wrapper-4">222.10</div>
                         </div>
                     </div>
             </div>
